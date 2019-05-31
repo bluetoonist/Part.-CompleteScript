@@ -1,6 +1,8 @@
 # 윈도우 로그파일은 UTC 시간대를 쓰므로 한국시간대로 바꿔서
 # 출력을 해야한다. 밑은 그것에 대한 코드.
 
+# 로그인 로그 4624에 대한 이벤트 아이디에 대한 테스트
+
 from threading import *
 from Evtx.Views import evtx_chunk_xml_view
 
