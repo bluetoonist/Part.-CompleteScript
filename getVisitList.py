@@ -1,5 +1,4 @@
 import os
-import wmi
 import psutil
 import sqlite3
 
