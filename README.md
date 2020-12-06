@@ -8,13 +8,11 @@
 5. Sinagong Download
 6. SuSan Mokpo Crawling
 7. MNU PROJECT 3th
+8. ITL_KOREA_Crawler
+9. MISP_iplog
+10. MNU ASSIGN TRAVERSAL
+11. stanfordMatch
 
-TITLE : MNU PROJECT 3th<
 ```
-윈도우 로그를 파싱해주는 라이브러리인 python-evtx를 이용해 만들어둔 코드, 해당 코드를 실행 시키기 위해 필요로 하는 라이브러리가 다수 존재
-[+] Requirement
-Python :  pyqt, evtx, mulitiprocessing
+위의 TOC는 주요 토이 프로젝트만 기록
 ```
-
-#Note
-https://github.com/bluetoonist/Part_-Python/tree/master/MiniProject 저장소에 모아둔 코드도 정리요망
