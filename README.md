@@ -1,77 +1,13 @@
-# 완성된 스크립트 저장소
-완성된 스크립트만 그룹화
+# Toy Project
+## TOC
 
-TITLE : chromeHistoryScript
-```
-MNU 네트워크 보안 프로젝트 1, chrome 브라우저 사용자의 history 파일의 내용을 파싱해 보여주는 파이썬 코드
-[+] Requirement
-Python : psutil, sqlite3, os 
-```
-
-TITLE : FileChase
-```
-실행 중인 파일의 경로를 추적해 특정 폴더에 추적된 파일의 '복사본'을 저장하는 스크립트, 
-코드에서는 "AcroRd32.exe"로 현재 열려있는 pdf를 추적함.
-[+]Requirement</h4>
-Python : psutil,
-```
-
-TITLE : IBookCrawler
-```
-table 태그를 요소로 쓰는 'http://www.ibookland.com/home/userguide/bookSearch.htm' 
-에서 동적 크롤링을 시도해봄
-[+]Requirement
-Python : BeautifulSoup, Selenium<br>
-chromedriver.exe
-```
-
-TITLE : MNU_MAIL_LIST
-```
-urllib와 cookie로 인증하는 방식에서 동적 크롤링 요소를 쓰지 않고 크롤링을 해보기 위해 
-MNU의 메일 시스템에 로그인해 내용을 가져오는 스크립트
-[+]Requirement
-Python : getpass, BeautifulSoup, urllib
-```
-
-TITLE : MokpoCityHall_Project
-```
-목포시 공공일자리 참여 사업에 참가 중 네이버 밴드에 업로드 된 자료를 더 편히 다운로드 받고
- 목포 시청 사이트에 업로드 시키기 위해 만든 크롤링 소스 (데모 영상 존재)
-[+]Requirement
-Python :  BeautifulSoup, urllib, selenium, shutil
-```
-
-TITLE : News_Capture
-```
-다음 뉴스 실시간 캡쳐 코드 데모 영상은 
-"New_macro_capture.py" 는 https://klonic.tistory.com/39?category=764442, 
-"News_macro_live.py"는 https://klonic.tistory.com/41?category=764442 를 참조
-[+]Requirement
-Python :  BeautifulSoup, requests, selenium
-
-```
-TITLE : Open API
-```
-open API의 사용 숙지를 위해 KaKao, Vworld OPEN API를 이용해 위도와 경도를 응답 받는 코드
-[+]Requirement
-Python : urllib,
-```
-TITLE : Sinagong Download
-```
-IDOR 취약점은 안전하지 않은 객체를 직접 참조해 사이트 상으로는 숨겨져있지만 r,w,x 권한은 오픈되어 있어 
-URI를 참조하면 객체를 다운로드 할 수 있음, 해당 스크립트를 이용하는 사이트에서는 IDOR은 발견되지 않았지만(필자 지식으로는) IDOR를 이용할 수 있는 요소는 이렇게 만들어지지 않을까하는 느낌으로 작성한 코드
-[+]Requirement
-Python :  zipfile, wget
-```
-
-
-TITLE :  SuSan Mokpo
-```
-파이썬을 배우고 무언가 처음 만들어 본 게 있다면 해당 디렉터리안의 소스 코드이다. 해양 수산청에서 
-직원 목록이 공개된 사이트에서 크롤링을 시도해보기 위해 필자가 가장 처음 만들었던 소스 코드
-[+]Requirement
-Python :  selenium, BeautifulSoup
-```
+1. MNU_MAIL_LIST
+2. MokpoCityHall_Project
+3. News_Capture
+4. Open API
+5. Sinagong Download
+6. SuSan Mokpo Crawling
+7. MNU PROJECT 3th
 
 TITLE : MNU PROJECT 3th<
 ```
